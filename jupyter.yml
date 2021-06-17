@@ -1,0 +1,10 @@
+name: jupyter
+channels:
+  - conda-forge
+dependencies:
+  - notebook
+  - jupyterlab
+  - nb_conda_kernels
+  - jupyter_contrib_nbextensions
+  - nbconvert
+  - pip
