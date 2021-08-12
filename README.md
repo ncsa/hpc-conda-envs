@@ -1,7 +1,16 @@
 # hpc-conda-envs
 This repository provides conda environment files and matching LMOD files that are generally useful in a shared multi-user HPC cluster environment.
+Users are able to use either module commands or conda commands to manage active environments. The following two commands would be considered equivalent.
+
+```bash
+module load conda/env/jupyter 
+conda activate jupyter
+```
+
 
 ## Installation
+The installation assumes that LMOD and miniconda3 have already been installed on the system. 
+
 ```bash
 cd /tmp
 wget https://github.com/ncsa/hpc-conda-envs/archive/master.tar.gz
