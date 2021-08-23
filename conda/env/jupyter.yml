@@ -2,9 +2,12 @@ name: jupyter
 channels:
   - conda-forge
 dependencies:
-  - notebook
   - jupyterlab
-  - nb_conda_kernels
+  - notebook
   - jupyter_contrib_nbextensions
+  - jupyterlab-git
+  - git
+  - nodejs
+  - nb_conda_kernels
   - nbconvert
-  - pip
+  - texlive-core
