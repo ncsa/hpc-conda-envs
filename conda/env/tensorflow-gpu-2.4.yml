@@ -1,0 +1,9 @@
+name: tensorflow-gpu-2.4
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - tensorflow-gpu=2.4
+  - ipykernel
+  - matplotlib
