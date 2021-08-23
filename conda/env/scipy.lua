@@ -1,13 +1,13 @@
 help([[
-Activates the scipy conda environment. This environment provides a basic
-set of Python numeric libraries.
+Activates the scipy conda environment. This environment provides a good
+starting point for many scientific applications.
 ]])
 
 -- conda environment name
 local env="scipy"
 
 -- extensions aid in documenting the python version provided
-extensions("python/3.9.2")
+extensions("python/3.9")
 
 -- always_load must be used because the conda3/init is unloaded (removing
 -- all the conda functions) prior to the execution of conda deactivate
