@@ -9,12 +9,23 @@ conda activate jupyter
 
 
 ## Installation
-The installation assumes that LMOD and miniconda3 have already been installed on the system. 
+The installation assumes that LMOD has already been installed on the system.
 
-```bash
-cd /tmp
-wget https://github.com/ncsa/hpc-conda-envs/archive/master.tar.gz
-tar xzf /tmp/master.tar.gz --directory /module/directory --strip-components=1
-conda env update -f /module/directory/conda/init/base.yml
-find /module/directory/conda/env -name \*yml | xargs conda env create -f
-```
+1. Install miniconda3 at a shared location such as /usr/local/miniconda3.
+Answer "no" when asked to initialize Miniconda3.
+1. Activate conda's base environment using the 'eval' command shown following
+the install.
+1. (optional -- recommended) Add mamba to the base environment using `conda  
+install -c conda-forge mamba`. Mamba is a fast drop-in alternative to conda.
+1. Edit the modules/miniconda3.lua file to point to the local miniconda3 installation.
+1. Recursively build the conda environments using `find . -name \*.yml -exec mamba env   
+create -f {} \;`. This will build multiple conda environments and store them under the
+local miniconda3 installation.
+1. Recursively copy every thing under the repository modules directory into the system 
+modules directory using `cp -r modules/* <system_module_directory>`.
+1. Recursively fix permissions on the ENTIRE miniconda3 installation and conda modules with
+`chmod -R g-w,o+rX /usr/local/miniconda3 /usr/local/modulefiles/conda`.
+
+Remember to fix permission on the miniconda3 installation after any changes to conda
+environments.
+
