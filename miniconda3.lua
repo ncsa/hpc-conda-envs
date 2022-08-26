@@ -1,10 +1,21 @@
 help([[
 This module loads the conda shell functions and variables but does NOT 
-activate any conda environments. It is loaded automatically by the 
-various conda/env modules and users are encouraged to use those directly.
+activate any conda environments. After loading, conda environments can
+be activated using 'conda activate <env>'. For complete list of available
+environments run 'conda env list'.
+
+For additional information see https://github.com/ncsa/hpc-conda-envs.
 ]])
 
-local root = "/usr/apps/general/miniconda3"
+module-whatis  "         Name: miniconda3"
+module-whatis  "      Version: 4.12"
+module-whatis  "  Description: Miniconda3 provides conda and a minimal python3 installation."
+module-whatis  "             : The conda command can be used create python environments"
+module-whatis  "             : with different python versions and sets of packages."
+module-whatis  "          URL: https://docs.conda.io/en/latest/miniconda.html"
+
+
+local root = "/usr/local/miniconda3"
 
 -- load the conda shell functions
 local cmd = "source " .. root .. "/etc/profile.d/conda." .. myShellType()
