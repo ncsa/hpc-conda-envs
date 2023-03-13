@@ -15,7 +15,7 @@ module-whatis  "             : with different python versions and sets of packag
 module-whatis  "          URL: https://docs.conda.io/en/latest/miniconda.html"
 
 
-local root = "/usr/local/miniconda3"
+local root = os.getenv("SW_ROOTDIR") or "/usr/local/miniconda3"
 
 -- load the conda shell functions
 local cmd = "source " .. root .. "/etc/profile.d/conda." .. myShellType()
