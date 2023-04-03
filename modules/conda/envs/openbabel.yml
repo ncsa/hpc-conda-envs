@@ -1,5 +1,0 @@
-name: openbabel
-channels:
-  - conda-forge
-dependencies:
-  - openbabel
