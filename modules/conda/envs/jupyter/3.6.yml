@@ -1,0 +1,17 @@
+name: jupyter-3.6
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - jupyter
+  - jupyterlab=3.6
+  - notebook
+  - jupyterlab-git
+  - jupyterlab_widgets
+  - jupyter_contrib_nbextensions
+  - nb_conda_kernels
+  - nbconvert
+  - nbformat
+  - texlive-core
+  - git
