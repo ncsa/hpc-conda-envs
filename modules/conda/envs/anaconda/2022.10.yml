@@ -1,0 +1,7 @@
+name: anaconda-2022.10
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - anaconda=2022.10
