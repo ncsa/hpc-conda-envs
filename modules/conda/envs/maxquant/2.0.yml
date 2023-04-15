@@ -1,6 +1,9 @@
-name: openbabel-3.1
+  
+name: maxquant-2.0
 channels:
   - conda-forge
+  - bioconda
 dependencies:
   - python=3.8
-  - openbabel=3.1
+  - maxquant=2.0
+

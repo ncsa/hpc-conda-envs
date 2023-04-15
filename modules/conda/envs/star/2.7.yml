@@ -1,6 +1,9 @@
-name: openbabel-3.1
+  
+name: star-2.7
 channels:
   - conda-forge
+  - bioconda
 dependencies:
   - python=3.8
-  - openbabel=3.1
+  - star=2.7
+

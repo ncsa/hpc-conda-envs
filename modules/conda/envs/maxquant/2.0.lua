@@ -1,15 +1,17 @@
 help([[
-Open Babel is a chemical toolbox designed to speak the many languages 
-of chemical data. It's an open, collaborative project allowing anyone 
-to search, convert, analyze, or store data from molecular modeling, 
-chemistry, solid-state materials, biochemistry, or related areas.
+MaxQuant is a proteomics software package for label-free quantification of 
+proteins and peptides.
 
-Activates the openbabel conda environment including the obabel command line
-interface.
+This module loads a conda environment.
 ]])
 
+whatis("Version: 2.0.3.0")
+whatis("Keywords: proteomics, mass spectrometry")
+whatis("URL: https://maxquant.net")
+whatis("Description: MaxQuant is a computational proteomics software package used for analyzing mass spectrometry data.")
+
 -- conda environment name
-local env="openbabel-3.1"
+local env="maxquant-2.0"
 
 -- extensions aid in documenting the python version provided
 extensions("python/3.8")
@@ -20,5 +22,5 @@ extensions("python/3.8")
 always_load("miniconda3")
 
 -- use conda to activate environments to ensure proper configuration
-execute {cmd="conda activate --stack" .. env, modeA={"load"}}
+execute {cmd="conda activate " .. env, modeA={"load"}}
 execute {cmd="conda deactivate", modeA={"unload"}}
