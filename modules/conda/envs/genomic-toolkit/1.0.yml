@@ -1,4 +1,4 @@
-name: genomic-tools-1.0
+name: genomic-toolkit-1.0
 channels:
   - conda-forge
   - bioconda
@@ -14,6 +14,8 @@ dependencies:
   - bedtools
   - bwa
   - bowtie2
+  - stringtie
+  - subread
   - picard
   - sra-tools
   - fastqc
