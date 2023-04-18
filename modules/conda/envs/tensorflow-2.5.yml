@@ -1,9 +1,0 @@
-name: tensorflow-2.5
-channels:
-  - anaconda
-  - conda-forge
-  - defaults
-dependencies:
-  - tensorflow=2.5.*
-  - ipykernel
-  - matplotlib

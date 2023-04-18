@@ -1,0 +1,32 @@
+name: geospatial-toolkit-1.0
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - geopandas
+  - fiona
+  - shapely
+  - geos
+  - pyproj
+  - rasterio
+  - xarray
+  - hdf5
+  - gdal
+  - proj        
+  - rtree
+  - cartopy
+  - descartes
+  - folium
+  - mapclassify
+  - contextily
+  - pysal
+  - scipy
+  - ipyleaflet
+  - ipywidgets
+  - dask

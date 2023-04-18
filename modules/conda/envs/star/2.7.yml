@@ -1,0 +1,9 @@
+  
+name: star-2.7
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - star=2.7
+

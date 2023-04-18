@@ -1,14 +1,20 @@
 help([[
-Activates the Jupyter conda environment. Use this environment when launching
-any Jupyter service on the cluster. Python kernels from other environments
-will be made available within the notebook service.
+MaxQuant is a proteomics software package for label-free quantification of 
+proteins and peptides.
+
+This module loads a conda environment.
 ]])
 
+whatis("Version: 2.0.3.0")
+whatis("Keywords: proteomics, mass spectrometry")
+whatis("URL: https://maxquant.net")
+whatis("Description: MaxQuant is a computational proteomics software package used for analyzing mass spectrometry data.")
+
 -- conda environment name
-local env="jupyter"
+local env="maxquant-2.0"
 
 -- extensions aid in documenting the python version provided
-extensions("python/3.9")
+extensions("python/3.8")
 
 -- always_load must be used because the conda3/init is unloaded (removing
 -- all the conda functions) prior to the execution of conda deactivate

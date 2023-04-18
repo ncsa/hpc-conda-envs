@@ -1,12 +1,16 @@
 help([[
-Loads TensorFlow 2.5 and supporting packages.
+  Python is a high-level, dynamically typed programming language.
+  This module provides Python 3.8 and its standard library.
 ]])
 
--- conda environment name
-local env="tensorflow_2.5"
+whatis("Name: Python")
+whatis("Version: 3.8.2")
+whatis("Category: programming, language")
+whatis("Description: Python programming language")
+whatis("URL: https://www.python.org")
 
--- extensions aid in documenting the python version provided
-extensions("python/3.9")
+-- conda environment name
+local env="python-3.8"
 
 -- always_load must be used because the conda3/init is unloaded (removing
 -- all the conda functions) prior to the execution of conda deactivate

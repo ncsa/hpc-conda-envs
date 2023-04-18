@@ -1,12 +1,17 @@
 help([[
-Loads TensorFlow 2.4 wth GPU support and supporting packages.
+STAR is a popular RNA-seq aligner that can align both RNA and DNA sequences.
 ]])
 
+whatis("Version: 2.7.10b")
+whatis("Keywords: RNA-seq, bioinformatics")
+whatis("URL: https://github.com/alexdobin/STAR")
+whatis("Description: STAR is a RNA-seq aligner that can align both RNA and DNA sequences.")
+
 -- conda environment name
-local env="tensorflow-gpu-2.4"
+local env="star-2.7"
 
 -- extensions aid in documenting the python version provided
-extensions("python/3.9")
+extensions("python/3.11.0")
 
 -- always_load must be used because the conda3/init is unloaded (removing
 -- all the conda functions) prior to the execution of conda deactivate
