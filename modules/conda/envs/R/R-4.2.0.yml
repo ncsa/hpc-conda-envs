@@ -1,8 +1,6 @@
 name: R-4_2_0
 channels:
   - conda-forge
-label:
-  - R-4_2_0
 dependencies:
   - r-base=4.2.0
 
