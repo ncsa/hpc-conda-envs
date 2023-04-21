@@ -8,7 +8,7 @@ https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion
 local env="bcl2fastq"
 
 -- extensions aid in documenting the python version provided
-extensions("python/3.9")
+extensions("python/3.8")
 
 -- always_load must be used because the conda3/init is unloaded (removing
 -- all the conda functions) prior to the execution of conda deactivate

@@ -1,6 +1,7 @@
-name: hicup
+name: homer-4.11
 channels:
   - conda-forge
   - bioconda
 dependencies:
-  - hicup
+  - homer=4.11
+  - python=3.8

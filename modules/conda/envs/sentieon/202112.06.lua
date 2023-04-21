@@ -1,14 +1,13 @@
 help([[
-Activates the homer conda environment. Homer is a suite of tools
-for Motif Discovery and next-gen sequencing analysis.
-http://homer.ucsd.edu/homer/
+Activates the sentieon conda environment.
+https://www.sentieon.com/
 ]])
 
 -- conda environment name
-local env="homer"
+local env="sentieon"
 
 -- extensions aid in documenting the python version provided
-extensions("python/3.9")
+extensions("python/3.8")
 
 -- always_load must be used because the conda3/init is unloaded (removing
 -- all the conda functions) prior to the execution of conda deactivate
