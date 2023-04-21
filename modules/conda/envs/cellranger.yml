@@ -1,9 +1,0 @@
-name: cellranger
-channels:
-  - conda-forge
-  - bioconda
-  - hcc
-dependencies:
-  - star
-  - pyopenssl
-  - cellranger
