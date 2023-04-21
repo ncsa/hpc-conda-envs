@@ -1,14 +1,14 @@
 help([[
-Activates the hicup conda environment. A tool for mapping
-and performing quality control on Hi-C data.
-https://www.bioinformatics.babraham.ac.uk/projects/hicup/
+Activates the homer conda environment. Homer is a suite of tools
+for Motif Discovery and next-gen sequencing analysis.
+http://homer.ucsd.edu/homer/
 ]])
 
 -- conda environment name
-local env="hicup"
+local env="homer"
 
 -- extensions aid in documenting the python version provided
-extensions("python/3.9")
+extensions("python/3.8")
 
 -- always_load must be used because the conda3/init is unloaded (removing
 -- all the conda functions) prior to the execution of conda deactivate
