@@ -1,0 +1,6 @@
+name: hicup
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - hicup

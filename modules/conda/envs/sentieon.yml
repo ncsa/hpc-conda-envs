@@ -1,0 +1,6 @@
+name: sentieon
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - sentieon
