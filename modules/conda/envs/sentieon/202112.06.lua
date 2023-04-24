@@ -1,10 +1,11 @@
 help([[
-Activates the sentieon conda environment.
+Activates the sentieon conda environment. Accelerated performance 
+bioinformatics tools for mapping and variant calling.
 https://www.sentieon.com/
 ]])
 
 -- conda environment name
-local env="sentieon"
+local env="sentieon-202112.06"
 
 -- extensions aid in documenting the python version provided
 extensions("python/3.8")

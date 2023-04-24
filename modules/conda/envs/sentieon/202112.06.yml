@@ -3,5 +3,5 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - sentieon=2.2112.06
+  - sentieon=202112.06
   - python=3.8
