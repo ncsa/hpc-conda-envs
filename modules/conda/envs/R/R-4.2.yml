@@ -1,0 +1,7 @@
+name: R-4.2
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-biocmanager
+
