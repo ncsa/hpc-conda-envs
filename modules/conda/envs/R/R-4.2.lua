@@ -1,18 +1,18 @@
 help([[
   R is a language and environment for statistical computing and graphics.
-  This module provides version 4.2.0 of R programming language.
+  This module provides version 4.2.3 of R programming language.
   reference conda base is at: https://anaconda.org/conda-forge/r-base
 ]])
 
 whatis("Name: R")
-whatis("Version: 4.2.0")
+whatis("Version: 4.2.3")
 whatis("Status: Recommended")
 whatis("Category: programming, language")
 whatis("Description: R programming language")
 whatis("URL: https://www.r-project.org")
 
 -- conda environment name
-local env="R-4.2.0"
+local env="R-4.2"
 
 -- extensions aid in documenting the python version provided
 
