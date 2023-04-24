@@ -1,0 +1,7 @@
+name: sentieon-202112.06
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - sentieon=202112.06
+  - python=3.8

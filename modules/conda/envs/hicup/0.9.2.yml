@@ -1,0 +1,7 @@
+name: hicup-0.9.2
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - hicup=0.9.2
+  - python=3.8
