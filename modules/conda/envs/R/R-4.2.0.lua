@@ -12,7 +12,7 @@ whatis("Description: R programming language")
 whatis("URL: https://www.r-project.org")
 
 -- conda environment name
-local env="R-4_2_0"
+local env="R-4.2.0"
 
 -- extensions aid in documenting the python version provided
 

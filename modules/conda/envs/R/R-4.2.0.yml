@@ -1,4 +1,4 @@
-name: R-4_2_0
+name: R-4.2.0
 channels:
   - conda-forge
 dependencies:
