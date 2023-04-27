@@ -1,4 +1,4 @@
-name: perl-5.32
+name: bioperl-5.32
 channels:
   - conda-forge
   - bioconda
@@ -12,3 +12,8 @@ dependencies:
   - perl-try-tiny
   - perl-uri
   - perl-xml-libxml
+  - perl-bioperl
+  - perl-bioperl-core
+  - perl-bio-samtools
+  - perl-file-spec
+  - perl-statistics-distributions
