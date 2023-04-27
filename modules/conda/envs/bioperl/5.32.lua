@@ -25,6 +25,8 @@ Bioinformatics Modules:
   - Statistics::Distributions: Calculate critical values and upper probabilities
     of common statistical distributions
 
+Learn more about Bioperl at https://bioperl.org
+
 Note: this environment includes python. If you need a specific versions of
 python, you should load it AFTER loading this module.
 ]])
