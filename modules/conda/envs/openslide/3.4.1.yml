@@ -1,0 +1,6 @@
+name: openslide-3.4.1
+channels:
+  - conda-forge
+dependencies:
+  - openslide=3.4.1
+  - python=3.8
