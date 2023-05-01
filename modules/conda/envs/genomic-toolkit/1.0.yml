@@ -5,19 +5,18 @@ channels:
 dependencies:
   - python=3.8
   - pip
-  - samtools
+  - samtools=1.10
+  - bcftools=1.10
+  - htslib=1.10
   - pysam
   - pysamstats
   - biopython
-  - htslib
-  - bcftools
   - bedtools
-  - bwa
-  - bowtie2
-  - stringtie
-  - subread
-  - picard
-  - sra-tools
-  - fastqc
-  - trimmomatic
-  - hisat2
+  - bwa=0.7
+  - bowtie2=2.4
+  - subread=2.0
+  - picard=2.22
+  - sra-tools=3.0
+  - fastqc=0.11
+  - trimmomatic=0.39
+  - hisat2=2.2

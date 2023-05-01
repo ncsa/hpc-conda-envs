@@ -1,0 +1,8 @@
+name: stringtie-2.2
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - pip
+  - stringtie=2.2
