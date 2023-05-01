@@ -1,0 +1,11 @@
+name: samtools-1.17
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - samtools=1.17
+  - bcftools=1.17
+  - htslib=1.17
+
