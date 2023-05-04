@@ -18,5 +18,5 @@ local env="python-3.11"
 always_load("miniconda3")
 
 -- use conda to activate environments to ensure proper configuration
-execute {cmd="conda activate " .. env, modeA={"load"}}
+execute {cmd="conda activate --stack " .. env, modeA={"load"}}
 execute {cmd="conda deactivate", modeA={"unload"}}
