@@ -1,0 +1,9 @@
+  
+name: clustalomega-1.2
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - clustalo=1.2
+
