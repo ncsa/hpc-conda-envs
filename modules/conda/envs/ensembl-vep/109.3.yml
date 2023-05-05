@@ -1,0 +1,7 @@
+name: ensembl-vep-109.3
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - ensembl-vep=109.3
+  - python=3.8
