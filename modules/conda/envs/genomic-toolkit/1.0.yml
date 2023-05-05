@@ -20,3 +20,8 @@ dependencies:
   - fastqc=0.11
   - trimmomatic=0.39
   - hisat2=2.2
+  - bx-python
+  - iced
+  - multiqc
+  - macs2
+  - sccaf
