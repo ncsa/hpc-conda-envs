@@ -1,0 +1,7 @@
+name: pymol-2.5
+channels:
+  - schrodinger
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pymol-bundle=2.5
