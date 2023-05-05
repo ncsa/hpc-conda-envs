@@ -1,0 +1,5 @@
+name: cp2k-8.1
+channels:
+  - conda-forge
+dependencies:
+  - cp2k=8.1
