@@ -5,7 +5,7 @@ https://www.bioinformatics.babraham.ac.uk/projects/hicup/
 ]])
 
 -- conda environment name
-local env="hicup"
+local env="hicup-0.9.2"
 
 -- extensions aid in documenting the python version provided
 extensions("python/3.8")
