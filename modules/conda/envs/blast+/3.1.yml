@@ -1,0 +1,7 @@
+name: blast-2.14
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - blast=2.14
