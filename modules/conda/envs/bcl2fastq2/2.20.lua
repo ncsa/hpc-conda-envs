@@ -5,7 +5,7 @@ https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion
 ]])
 
 -- conda environment name
-local env="bcl2fastq"
+local env="bcl2fastq2-2.20"
 
 -- extensions aid in documenting the python version provided
 extensions("python/3.8")
