@@ -1,0 +1,7 @@
+name: igv-2.13.2
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - igv=2.13.2
+  - python=3.8
