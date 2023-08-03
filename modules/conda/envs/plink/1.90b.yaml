@@ -1,0 +1,8 @@
+name: plink-1.90b
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - pip
+  - plink=1.90b6.21
