@@ -11,6 +11,8 @@ tools for working with genomic data. This module includes the following tools:
   - bowtie2: An ultrafast memory-efficient short-read aligner
   - picard: A set of Java-based command-line tools for manipulating 
       high-throughput sequencing data
+  - plink2: A Tool Set for Whole-Genome Association and Population-Based
+       Linkage Analyses
   - sra-tools: Tools for working with the Sequence Read Archive (SRA)
   - fastqc: A quality control tool for high-throughput sequence data
   - trimmomatic: A flexible read trimming tool for Illumina NGS data
