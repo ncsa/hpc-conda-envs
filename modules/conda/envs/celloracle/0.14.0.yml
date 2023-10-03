@@ -1,0 +1,31 @@
+name: celloracle-0.14.0
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python
+  - pip
+  - numpy
+  - scipy
+  - cython
+  - numba>=0.50.1
+  - ipykernel
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - h5py
+  - pandas
+  - umap-learn
+  - pyarrow>=0.17
+  - tqdm>=4.45
+  - igraph>=0.10.1
+  - louvain
+  - anndata>=0.7.5
+  - scanpy>=1.6
+  - joblib
+  - goatools
+  - velocyto.py>=0.17
+  - genomepy>=0.8.4
+  - gimmemotifs<=0.17.1
+  - pip:
+    - celloracle==0.14.0
