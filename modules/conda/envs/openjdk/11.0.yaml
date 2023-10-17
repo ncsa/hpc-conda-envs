@@ -1,0 +1,5 @@
+name: openjdk-11.0
+channels:
+  - conda-forge
+dependencies:
+  - openjdk=11
