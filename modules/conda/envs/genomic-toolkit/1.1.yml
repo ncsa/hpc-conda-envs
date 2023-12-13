@@ -1,0 +1,29 @@
+name: genomic-toolkit-1.1
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python
+  - pip
+  - gwama
+  - samtools=1.10
+  - bcftools=1.10
+  - htslib=1.10
+  - pysam
+  - pysamstats
+  - biopython
+  - bedtools
+  - bwa=0.7
+  - bowtie2=2.4
+  - subread=2.0
+  - picard=2.22
+  - sra-tools=3.0
+  - fastqc=0.11
+  - trimmomatic=0.39
+  - hisat2=2.2
+  - plink2
+  - bx-python
+  - iced
+  - multiqc
+  - macs2
+  - sccaf
