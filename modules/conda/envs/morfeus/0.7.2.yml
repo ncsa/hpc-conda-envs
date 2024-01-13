@@ -1,0 +1,11 @@
+name: morfeus-0.7.2
+channels:
+  - conda-forge
+dependencies:
+  - libblas=*=*mkl
+  - morfeus-ml
+  - xtb
+  - xtb-python
+  - openbabel
+  - rdkit
+  - crest
