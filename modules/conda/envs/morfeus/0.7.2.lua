@@ -10,14 +10,14 @@ Several optional dependencies are installed including:
   CREST: Conformer-Rotamer Ensemble Sampling Tool based on the xtb Semiempirical 
           Extended Tight-Binding Program Package
   xtb: semiempirical extended tight-binding program package
-  xtb-python: a Python API for the xtb program (depricated)
+  xtb-python: a Python API for the xtb program (deprecated)
 ]])
 
 -- conda environment name
 local env="morfeus-0.7.2"
 
 -- extensions aid in documenting the python version provided
-extensions("python/3.11")
+extensions("rdkit/2023.09.4, openbabel/3.1.1, crest/2.12, xtb/6.5.1")
 
 -- always_load must be used because the conda3/init is unloaded (removing
 -- all the conda functions) prior to the execution of conda deactivate
