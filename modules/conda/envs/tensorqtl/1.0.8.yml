@@ -1,0 +1,9 @@
+name: tensorqtl-1.0.8
+channels:
+  - dnachun
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - tensorqtl=1.0.8
+  - nvidia::cuda-nvcc
