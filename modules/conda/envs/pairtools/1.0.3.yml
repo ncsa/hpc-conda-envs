@@ -1,0 +1,8 @@
+  
+name: pairtools-1.0.3
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - pairtools=1.0.3
+
